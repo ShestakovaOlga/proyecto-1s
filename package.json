@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-1s",
+  "version": "1.0.0",
+  "description": "",
+  "main": "in.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShestakovaOlga/proyecto-1s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShestakovaOlga/proyecto-1s/issues"
+  },
+  "homepage": "https://github.com/ShestakovaOlga/proyecto-1s#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

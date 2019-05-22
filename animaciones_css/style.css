@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 48px;
+    animation: aparecer 5s linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes aparecer{
+    0%{
+opacity:-0;
+    }
+    25%{
+        opacity: 0.5;
+}
+50%{
+    opacity:1;
+}
+75%{
+    opacity: 0.5;
+}
+100%{
+    opacity: 0;
+}
+}
+/*ejercicio 3 1_13
+.container{
+    width: 100vw;
+    height: 200vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:10vh;
+    transition: all 1s;
+    border: 1px solid red;
+}
+.container:hover{
+    top:-50vh;
+    transition: all 1s;
+}
+.popup{
+    border:1px solid gray;
+    width: 30vw;
+    height: 20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 0 10px rgb(145, 137, 137);
+    border-radius: 15px;   
+}
+animation: rotar 1s linear;
+    animation-iteration-count: infinite;
+
+@keyframes rotar {
+    from {
+        transform: rotateZ(0deg)
+    }
+    to {
+        transform: rotateZ(360deg)
+    }
+}

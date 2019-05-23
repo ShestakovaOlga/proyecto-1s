@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ShestakovaOlga/proyecto-1s#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "sass": "^1.20.1"
   }
 }

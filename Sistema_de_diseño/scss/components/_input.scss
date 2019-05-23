@@ -12,6 +12,7 @@ $input-color-valid:green;
     border-bottom: 2px solid $input-border-color;
     margin-bottom: 25px;
     width: $input-width;
+    outline: none;
     cursor: pointer;
 
     &:hover{

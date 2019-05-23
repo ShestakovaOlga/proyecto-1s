@@ -1,0 +1,34 @@
+@import "scss/core/variables";
+
+$input-font-color: #fff;
+$input-border-color:rgb(140, 169, 182);
+$input-width: 300px;
+$input-color-alert:red;
+$input-color-valid:green;
+
+
+.input{
+    border:none;
+    border-bottom: 2px solid $input-border-color;
+    margin-bottom: 25px;
+    width: $input-width;
+    cursor: pointer;
+
+    &:hover{
+        background: $color-03;
+    }
+    &:active{
+        background-color: $color-02;
+    }
+}
+.input-focus:focus{
+    background-color: $color-primary;
+}
+.input-alert:invalid{
+    border:none;
+    border-bottom: 2px solid $input-color-alert;
+}
+.input-valid:valid{
+    border:none;
+    border-bottom: 2px solid $input-color-valid;
+}

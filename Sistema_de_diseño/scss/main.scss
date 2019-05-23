@@ -1,0 +1,15 @@
+@import "core/variables";
+@import "components/input";
+
+body{
+    margin:0;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left:0;
+    top:0;
+    transform: translateY(50%);
+}

@@ -23,9 +23,17 @@ body{
 .main{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
     flex:1;
     
+}
+.img1 img{
+    transform: translateY(-150px);
+    width: 100%;
+    overflow-x: hidden;
+}
+.img1 {
+    height: 282px;
+    overflow: hidden;
 }

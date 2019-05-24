@@ -1,0 +1,12 @@
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    
+}
+.icons i{
+    margin:10px;
+    color:$color01;
+}

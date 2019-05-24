@@ -1,0 +1,23 @@
+.about{
+    text-align: center;
+    line-height: 1.4;
+    margin-top:30px;
+}
+.about img{
+    width: 160px;
+    height: 180px;
+    margin-top:10px;
+}
+.about h3{
+    font-family: $font-type2;
+    color:$color01;
+    font-size: 1.5rem;
+}
+.about h2{
+    font-family: $font-type;
+    font-size: 1.4rem;
+}
+.about span{
+    font-family: $font-type;
+    color:$color03;
+}

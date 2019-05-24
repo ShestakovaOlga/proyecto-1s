@@ -1,24 +1,28 @@
 @import "core/variables";
 @import "components/typography";
+@import "components/img";
+@import "components/equipo";
+@import "components/icons";
 @import "layout/navbar";
 @import "layout/footer";
+@import "layout/discribe";
+@import "layout/about";
 
 
 body{
     margin:0;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 #container{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
-    margin:0;
-    padding:0;
-    overflow-x: hidden
+    overflow: hidden;
 }
 .main{
     display:flex;
@@ -26,14 +30,11 @@ body{
     align-items: center;
     width: 100%;
     flex:1;
-    
 }
-.img1 img{
-    transform: translateY(-150px);
-    width: 100%;
-    overflow-x: hidden;
-}
-.img1 {
-    height: 282px;
-    overflow: hidden;
+
+.cub{
+    width: 30px;
+    height: 30px;
+    background: $color-light;
+    transform: rotate(45deg) translate(20px, 20px);
 }

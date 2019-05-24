@@ -1,0 +1,23 @@
+
+.equipo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom:15px;
+
+}
+.equipo h2{
+    font-family: $font-type2;
+    color:$color01;
+    font-size: 1.6rem;
+}
+
+.equipo span{
+    font-family: $font-type;
+    color:$color03;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}

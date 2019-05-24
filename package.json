@@ -4,7 +4,7 @@
   "description": "",
   "main": "in.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build p-1s/index.html --out-dir docs --public-url ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ShestakovaOlga/proyecto-1s#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "sass": "^1.20.1"

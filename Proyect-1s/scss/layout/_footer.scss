@@ -1,0 +1,41 @@
+@import "core/variables";
+
+.footer{
+    width: 100vw;
+    height: 300px;
+    border-top:1px solid $color04;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 115.9px;
+    height: 45px;
+    margin-top:30px;
+    margin-bottom:45px;
+}
+.texto-footer{
+    font-size: 1rem;
+    font-family:$font-type;
+    color:$color04;
+    margin-top:30px;
+}
+.texto-footer2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px; 
+}
+
+a{ 
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:$color04;
+    font-family:$font-type;
+
+    &:hover{
+        color:$color01;
+    }
+    
+}

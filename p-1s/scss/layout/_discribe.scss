@@ -4,6 +4,15 @@
     margin-top:15px;
     background: $color05;
     padding-bottom: 45px;
+    @media (min-width:768px) {
+        display: flex;
+        padding: 45px;
+    }
+    @media (min-width:1200px) {
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+    }
 }
 .discribe h3{
     font-family: $font-type2;
@@ -13,5 +22,14 @@
 .discribe span{
     font-family: $font-type;
     color:$color03;
+    
+}
+.discribe div{
+    @media (min-width:768px) {
+        padding: 10px;
+    }
+    @media (min-width:1200px) {
+        padding:10px;
+    }
 }
 

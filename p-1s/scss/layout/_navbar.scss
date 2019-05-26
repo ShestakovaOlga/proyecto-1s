@@ -35,8 +35,6 @@
     top:0;
     z-index: 10;
     background: $color01;
-    display:flex;
-    justify-content: center;
     color:$color-light;
     display:flex;
     justify-content: space-between;
@@ -48,11 +46,17 @@ opacity: 0.8;
     }
 }
 
-.navbarml div{
+.textml {
     display:flex;
-    flex-direction:row;
+    justify-content: space-between;
     margin-right: 45px;
+    @media (min-width:1200px) {
+        margin-right: 100px;
+    }
 }
 .navbarml h3{
     margin-left: 45px;
+    @media (min-width:1200px) {
+        margin-left: 100px;
+    }
 }

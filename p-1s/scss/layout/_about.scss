@@ -2,17 +2,20 @@
     text-align: center;
     line-height: 1.4;
     margin-top:30px;
-    & div{
-
+    & h3+div{
+align-items: center;
     @media (min-width:768px) {
         display: flex;
         flex-direction: row-reverse;
-        padding: 45px;
+        padding:0 45px 0 45px;
+        margin-top:0;
+
     }
     @media (min-width:1200px) {
         padding-left: 100px;
         padding-right: 100px;
         display: flex;
+        margin-top:0;
     } 
 }
 }
@@ -29,8 +32,31 @@
 .about h2{
     font-family: $font-type;
     font-size: 1.4rem;
+    
 }
 .about span{
     font-family: $font-type;
     color:$color03;
+    @media (min-width:768px) {
+        text-align: end;
+        
+    }
+    @media (min-width:1200px) {
+       
+     }
+    
+}
+.about img+div{
+    display:flex;
+    flex-direction: column;
+    @media (min-width:768px) {
+            align-items: flex-end;
+            margin-right: 20px;
+    }
+    @media (min-width:1200px) {
+        align-items: flex-end;
+        margin-right: 40px; 
+    }
+
+
 }

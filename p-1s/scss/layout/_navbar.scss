@@ -10,7 +10,7 @@
 
 
 .navbar1{
-    width:100%;
+    width:100vw;
     height: 60px;
     background: $color01trans;
     opacity:1;
@@ -22,7 +22,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    width:100%;
+    width:100vw;
     background: $color02trans;
     color:$color-light;
 }
@@ -38,7 +38,7 @@
     }
 }
 .navbarml{
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top:0;
     z-index: 10;
@@ -80,9 +80,22 @@ opacity: 0.8;
       
     }
 }
-.navbarml h3{
+.h3{
+    color:$color-light;
     margin-left: 45px;
     @media (min-width:1200px) {
         margin-left: 100px;
     }
+}
+.h3{
+   text-align: center;
+   padding:15px;
+   color:$color-light;
+   &:hover {
+    color: $color03;
+   }
+   @media (max-width:768px) {
+        margin-left:0; 
+   }
+ 
 }

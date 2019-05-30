@@ -20,12 +20,25 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
     flex:1;
+    @media (min-width:768px) {
+        width:442px;
+        
+    }
+    @media (min-width:1200px) {
+        width:601px; 
+    }
     & form{
         display:flex;
         flex-direction: column;
         width: 80%; 
+        @media (min-width:768px) {
+            width:442px;
+            
+        }
+        @media (min-width:1200px) {
+            width:601px; 
+        }
     }
     & input{
        height: 45px;
@@ -62,23 +75,25 @@ body{
         color:$color01;
         font-size: 2rem;
     }
-    & + .text1{
+}
+.text1{
         font-family: $font-type2;
         color:$color03;
         font-size: 1.6rem;
+        margin-left: 20px;
+        margin-right: 15px;
     }
-    & + .text2{
+.text2{
         font-family: $font-type2;
         color:$color03;
         font-size: 1rem;
-        margin-top: 45px;
-        margin-bottom:60px;
+        margin:45px 15px 60px 20px;
     }
-    & + .asterisk{
+.asterisk{
         color:$color02;
         padding:5px;
     }
-}
+
 
 .submit{
     border:none !important;
@@ -90,6 +105,14 @@ body{
     margin-bottom:60px;
     &:hover {
         background-color: $color02;
+    }
+    @media (min-width:768px) {
+       width: 206px;
+       transform: translateX(115%);
+    }
+    @media (min-width:1200px) {
+        transform: translateX(190%); 
+        margin-bottom: 120px;
     }
 }
 .imgcontact {
@@ -107,4 +130,37 @@ body{
       margin:0;
       height: 300px;
     }
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1200px){
+        width: 162px;
+        display:flex;
+        flex-direction: column;
+       
+      }
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1200px){
+        width: 395px;
+        display:flex;
+        flex-direction: column;
+        margin-right: 44px;
+      }
+}
+.mailPhone{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:768px) {
+        display: flex;
+    flex-direction: column;
+    }
+    
+    @media (min-width:1200px){
+        display:flex;
+        flex-direction: row;
+      }
 }

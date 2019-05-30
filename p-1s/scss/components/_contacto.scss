@@ -25,20 +25,78 @@ body{
     & form{
         display:flex;
         flex-direction: column;
+        width: 80%; 
     }
     & input{
        height: 45px;
        margin-top:5px;
+       border-style:none;
+       border:1px solid $color03;
+       font-family: $font-type;
+        font-size: 1.2rem;
+        padding: 5px;
+        & :hover{
+            color: $color02;
+        }
+    }
+    & textarea{
+        margin-top:5px;
+       border-style:none;
+       border:1px solid $color03;
+       height: 105px;
+       margin-bottom: 30px;
+       font-family: $font-type;
+        color:$color03;
+        font-size: 1.2rem;
+        padding: 5px;
     }
     & label{
         margin-top: 15px;
+        font-family: $font-type;
+        color:$color03;
+        font-size: 1.2rem;
+        padding: 5px;
+    }
+    & h2{
+        font-family: $font-type;
+        color:$color01;
+        font-size: 2rem;
+    }
+    & + .text1{
+        font-family: $font-type2;
+        color:$color03;
+        font-size: 1.6rem;
+    }
+    & + .text2{
+        font-family: $font-type2;
+        color:$color03;
+        font-size: 1rem;
+        margin-top: 45px;
+        margin-bottom:60px;
+    }
+    & + .asterisk{
+        color:$color02;
+        padding:5px;
     }
 }
 
+.submit{
+    border:none !important;
+    border-radius:5px;
+    height: 45px;
+    background: $color01;
+    color:$color-light;
+    font-size: 1.5rem !important; 
+    margin-bottom:60px;
+    &:hover {
+        background-color: $color02;
+    }
+}
 .imgcontact {
     height: 250px;
   top:0;
   z-index: -1;
+  margin-bottom: 30px;
 
   & .imgcont{
     height: 100%;
